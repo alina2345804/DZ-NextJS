@@ -1,0 +1,26 @@
+.like {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 125px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    transition: fill 0.2s;
+    display: inline-block;
+}
+.count {
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--grey);
+    margin-right: 2px;
+    margin-left: 9px;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+}

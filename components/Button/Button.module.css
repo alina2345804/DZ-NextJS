@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    /* border: none;
+    outline: none; */
+
+    font-size: 12px;
+}
+.ButtonLike {
+    padding-left: 10px;
+     /* border: none;
+     outline: none;
+    background: transparent; */
+}

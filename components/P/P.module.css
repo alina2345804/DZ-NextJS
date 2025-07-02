@@ -1,0 +1,14 @@
+.p {
+    margin: 0;
+    font-weight: 400;
+    color: var(--grey);
+    max-width: 400px;
+    margin-left: 10px;
+}
+
+.m {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Open Sans';
+   
+}
