@@ -1,5 +1,5 @@
 'use client'
-import {Card} from "@/components";
+import {Card, Button} from "@/components";
 
 export default function Home() {
   return (
@@ -14,6 +14,9 @@ export default function Home() {
                likeCount={4}
                isLiked={false}
            />
+        <>
+            <Button isActive={false} />
+        </>
     </>
   )
 }
