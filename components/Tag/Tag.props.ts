@@ -4,5 +4,4 @@ export interface TagProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElemen
     size?: 's';
     children: ReactNode;
     color: 'grey' | 'black';
-    
 }

@@ -1,7 +1,6 @@
-import { DetailedHTMLProps, AnchorHTMLAttributes, ReactNode } from "react";
+import {DetailedHTMLProps, AnchorHTMLAttributes, ReactNode} from "react";
 
-
-export interface LinkProps extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> { 
+export interface LinkProps extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
     href: string;
     children: ReactNode;
-};
+}

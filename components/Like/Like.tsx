@@ -10,10 +10,17 @@ export const Like = ({count: initialCount = 0,isActive: initialActive = false,cl
     const [isLiked, setIsLiked] = useState(initialActive);
     const [count, setCount] = useState(initialCount);
 
+    const handleClick = () => {
+        setIsLiked(prevLiked => {
+            const newLiked = !prevLiked;
+            setCount(prevCount => newLiked ? prevCount + 1 : prevCount - 1);
+            return newLiked;
+        });
+    };
+
     return (
         <button
-            onClick={() =>(setIsLiked(prev => !prev),setCount(prev => (isLiked ? prev - 1 : prev + 1)))}
-
+            onClick={handleClick}
             className={cn(styles.like, className)}
             {...props}
         >

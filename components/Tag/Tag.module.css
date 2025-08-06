@@ -1,18 +1,19 @@
 .tag {
     display: inline-block;
-
     box-sizing: border-box;
     margin: 15px 0 6px 10px;
-
     background: var(--white);
 }
+
 .s {
     font-weight: 400;
     font-size: 12px;
 }
+
 .grey {
     color: var(--grey);
 }
+
 .black {
     color: var(--black);
 }
