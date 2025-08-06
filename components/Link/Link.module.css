@@ -1,0 +1,13 @@
+.link {
+  display: inline;
+  text-decoration: none;
+  color: var(--blue);
+  transition: color 0.2s ease;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: right;
+}
+
+.link:hover {
+  color: #0055aa;
+}
