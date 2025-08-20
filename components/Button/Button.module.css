@@ -1,16 +1,29 @@
 .button {
+    all: unset;
     display: inline-block;
-    box-sizing: border-box;
-
     cursor: pointer;
-    /* border: none;
-    outline: none; */
 
-    font-size: 12px;
 }
-.ButtonLike {
-    padding-left: 10px;
-     /* border: none;
-     outline: none;
-    background: transparent; */
+.svgContainer {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    position: absolute;
+    z-index: 0;
+}
+.like {
+    z-index: 1;
+}
+.button.active .bg {
+    fill: #303030;
+
+}
+
+.button.active .like {
+    stroke: var(--white);
 }

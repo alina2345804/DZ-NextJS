@@ -1,0 +1,14 @@
+.header {
+    margin: 8px 55px 23px 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    font-weight: 300;
+    font-size: 40px;
+    color: #000;
+    margin-top: 23px;
+}
+.gitLogo {
+    margin-top: 38px;
+}

@@ -1,16 +1,13 @@
-import { HtagProps } from "./Htag.props";
+import {HtagProps} from "./Htag.props";
 import styles from './Htag.module.css';
-import { JSX } from "react";
-// import cn from 'classnames';
-
-import { Open_Sans } from 'next/font/google';
+import {JSX} from "react";
+import {Open_Sans} from 'next/font/google';
 
 const openSans = Open_Sans({
     subsets: ['cyrillic', 'latin'],
 });
 
-
-export const Htag = ({ tag, children }: HtagProps): JSX.Element =>  {
+export const Htag = ({tag, children}: HtagProps): JSX.Element => {
     switch (tag) {
         case 'h1':
             return (
@@ -19,6 +16,6 @@ export const Htag = ({ tag, children }: HtagProps): JSX.Element =>  {
                 </h1>
             );
         default:
-            return <></>;
+            return <p> children </p>;
     }
 }
