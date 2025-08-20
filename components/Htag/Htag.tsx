@@ -16,6 +16,6 @@ export const Htag = ({tag, children}: HtagProps): JSX.Element => {
                 </h1>
             );
         default:
-            return <></>;
+            return <p> children </p>;
     }
 }

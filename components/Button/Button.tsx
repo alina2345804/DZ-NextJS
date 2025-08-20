@@ -9,7 +9,6 @@ import Circle from "./Circle.svg";
 import cn from 'classnames';
 
 export const Button = ({isActive = false, ...props}: ButtonProps): JSX.Element => {
-
     const [active, setActive] = useState<boolean>(isActive);
 
     const handleClick = () => {
